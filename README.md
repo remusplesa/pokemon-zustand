@@ -1,1 +1,1 @@
-Random app where i can use zustand
+Random app where i can use zustand. [Live app here]("https://remusplesa.gitlab.io/pokemon-zustand/)
