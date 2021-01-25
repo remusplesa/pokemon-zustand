@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/pokemon-zustand",
+  "start_url": "https://remusplesa.gitlab.io/pokemon-zustand/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
