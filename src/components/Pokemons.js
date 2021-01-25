@@ -9,7 +9,6 @@ const pokemonsURL =
 const Pokemons = () => {
   const setPokemons = useStore((state) => state.setPokemons);
   const results = useStore((state) => state.results());
-  const selected = useStore((state) => state.selected);
 
   useEffect(() => {
     fetch(pokemonsURL)
@@ -18,7 +17,7 @@ const Pokemons = () => {
         setPokemons(pokemon);
         console.log(pokemon);
       });
-  }, []);
+  }, [setPokemons]);
 
   return (
     <div className="container">
