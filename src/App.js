@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import NavBar from "./components/NavBar";
+import Pokemons from './components/Pokemons';
+import CompareModal from './components/CompareModal';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="jumbotron text-center" style={{ marginBottom: 0 }}>
+        <h1>React + Zustand + Bootstrap</h1>
+        <p>Query the pokemons!</p>
+      </div>
+      <NavBar />
+      <CompareModal />
+
+      <Pokemons />
     </div>
   );
 }
