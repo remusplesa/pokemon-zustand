@@ -1,8 +1,8 @@
 {
-  "name": "zustand-hello-world",
+  "name": "pokemon-zustand",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://remus.plesa.gitlab.io/pokemon-zustand/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
